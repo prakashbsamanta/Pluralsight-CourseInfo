@@ -1,11 +1,14 @@
 package com.pluralsight.courseinfo.domain;
 
-public record Course(String id, String name, Long length, String url) {
+import java.util.Optional;
+
+public record Course(String id, String name, Long length, String url, Optional<String> notes) {
 
     public Course {
         filled(id);
         filled(name);
         filled(url);
+        notes.ifPresent(Course::filled);
     }
 
     public static void filled(String s) {

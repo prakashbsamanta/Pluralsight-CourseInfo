@@ -11,6 +11,7 @@
     <modules>
         <module>courseInfo-repository</module>
         <module>courseInfo-cli</module>
+        <module>courseInfo-server</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
