@@ -11,11 +11,6 @@
 
     <artifactId>courseInfo-repository</artifactId>
 
-    <properties>
-        <junit.version>5.9.1</junit.version>
-        <h2database.version>2.1.214</h2database.version>
-    </properties>
-
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
